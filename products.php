@@ -47,10 +47,12 @@ include 'includes/header_menu.php';
                     <h6>Guess 1875</h6>
                     <h6>Price :Rs 3000</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart </a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart </a></p>
                     <?php
                     } 
-                    ?>
+                 
+                        ?>
+                   
                 </div>
             </div>
         </div>
@@ -61,18 +63,11 @@ include 'includes/header_menu.php';
                     <h6>Guest Watch</h6>
                     <h6>Price :Rs 2500</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                        if (check_if_added_to_cart(2)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                         } else {
+                    } 
                         ?>
-                        <p><a href="cart-add.php?id=2" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                        <?php
-                         }
-                    }
-                    ?>
+                    
                 </div>
             </div>
         </div>
@@ -83,18 +78,11 @@ include 'includes/header_menu.php';
                     <h6>Panerai Watch</h6>
                     <h6>Price :Rs 3500</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                        if (check_if_added_to_cart(3)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                        } else {
+                    } 
                         ?>
-                        <p><a href="cart-add.php?id=3" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                        <?php
-                        }
-                    }
-                    ?>
+                    
                 </div>
             </div>
         </div>
@@ -105,18 +93,11 @@ include 'includes/header_menu.php';
                     <h6>Nonos Watch</h6>
                     <h6>Price :Rs 1800</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                        if (check_if_added_to_cart(4)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                        } else {
+                    } 
                         ?>
-                        </p><a href="cart-add.php?id=4" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                        <?php
-                        }
-                    }
-                    ?>
+                    
                 </div>
             </div>
         </div>
@@ -129,18 +110,11 @@ include 'includes/header_menu.php';
                     <h6>Levis</h6>
                     <h6>Price :Rs 1800</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                        if (check_if_added_to_cart(5)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                        } else {
+                    } 
                         ?>
-                        <p><a href="cart-add.php?id=5" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                        <?php
-                        }
-                    }
-                    ?>
+                       
                     </div>
                 </div>
             </div>
@@ -151,18 +125,11 @@ include 'includes/header_menu.php';
                     <h6>Louis Philippe t-shirt</h6>
                     <h6>Price :Rs 2500</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                        if (check_if_added_to_cart(6)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                        } else {
+                    } 
                         ?>
-                        <p><a href="cart-add.php?id=6" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                        <?php
-                    }
-                    }
-                    ?>
+                      
                     </div>
                 </div>
             </div>
@@ -173,18 +140,11 @@ include 'includes/header_menu.php';
                         <h6>Highlander t-shirt</h6>
                         <h6>Price :Rs 500</h6>
                         <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
-                    <?php
-                    } else {
-                    if (check_if_added_to_cart(7)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
-                    ?>
-                    <p><a href="cart-add.php?id=7" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
                     }
-                    }
                     ?>
+                   
                     </div>
                 </div>
             </div>
@@ -195,18 +155,11 @@ include 'includes/header_menu.php';
                         <h6>GUCCI White t-Shirt</h6>
                         <h6>Price :Rs 2300</h6>
                         <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                        if (check_if_added_to_cart(8)) {
-                        echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                        } else {
+                    } 
                         ?>
-                        <p><a href="cart-add.php?id=8" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                        <?php
-                        }
-                    }
-                    ?>
+                      
                     </div>
                 </div>
             </div>
@@ -219,18 +172,11 @@ include 'includes/header_menu.php';
                             <h6>Nike White Sneaker</h6>
                             <h6>Price :Rs 8000</h6>
                             <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                    if (check_if_added_to_cart(9)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
+                    } 
                     ?>
-                    <p><a href="cart-add.php?id=9" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                    <?php
-                    }
-                    }
-                    ?>
+                   
                         </div>
                     </div>
                 </div>
@@ -241,18 +187,11 @@ include 'includes/header_menu.php';
                             <h6>Nike White Shoes</h6>
                             <h6>Price :Rs 7500</h6>
                             <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                    if (check_if_added_to_cart(10)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
+                    } 
                     ?>
-                     <p><a href="cart-add.php?id=10" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                     <?php
-                    }
-                    }
-                    ?>
+                     
                         </div>
                     </div>
                 </div>
@@ -263,18 +202,11 @@ include 'includes/header_menu.php';
                             <h6>Nike Yellow Sneaker</h6>
                             <h6>Price :Rs 7000</h6>
                             <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                    if (check_if_added_to_cart(11)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
+                    } 
                     ?>
-                    <p><a href="cart-add.php?id=11" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                    <?php
-                    }
-                    }
-                    ?>
+                   
                         </div>
                     </div>
                 </div>
@@ -285,18 +217,11 @@ include 'includes/header_menu.php';
                         <h6>Nike Sneaker</h6>
                     <h6>Price :Rs 6000</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
-                    <?php
-                    } else {
-                    if (check_if_added_to_cart(12)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
-                    ?>
-                    </p><a href="cart-add.php?id=12" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
                     }
-                    }
                     ?>
+                  
                         </div>
                     </div>
                 </div>
@@ -309,18 +234,11 @@ include 'includes/header_menu.php';
                                 <h6>Beats Headphone</h6>
                                 <h6>Price :Rs 22,500</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
-                    <?php
-                    } else {
-                    if (check_if_added_to_cart(13)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
-                    ?>
-                    <p> <a href="cart-add.php?id=13" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
                     }
-                    }
                     ?>
+                    
                             </div>
                         </div>
                     </div>
@@ -331,18 +249,11 @@ include 'includes/header_menu.php';
                                 <h6>Zolo Headphone</h6>
                                 <h6>Price :Rs 4500</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                    if (check_if_added_to_cart(14)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
+                    } 
                     ?>
-                    </p><a href="cart-add.php?id=14" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                    <?php
-                    }
-                    }
-                    ?>
+                   
                             </div>
                         </div>
                     </div>
@@ -353,18 +264,11 @@ include 'includes/header_menu.php';
                                 <h6>Sony Speaker</h6>
                                 <h6>Price :Rs 10,500</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
-                    } else {
-                    if (check_if_added_to_cart(15)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
+                    } 
                     ?>
-                    </p><a href="cart-add.php?id=15" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
-                   <?php
-                    }
-                    }
-                    ?>
+                   
                             </div>
                         </div>
                     </div>
@@ -375,18 +279,11 @@ include 'includes/header_menu.php';
                                 <h6>Airpods</h6>
                                 <h6>Price :Rs 15,000</h6>
                                 <?php if (!isset($_SESSION['email'])) {?>
-                    <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
-                    <?php
-                    } else {
-                    if (check_if_added_to_cart(16)) {
-                    echo '<p><a href="#" class="btn btn-warning  text-white" disabled>Added to cart</a></p>';
-                    } else {
-                    ?>
-                    <p> <a href="cart-add.php?id=16" name="add" value="add" class="btn btn-warning  text-white">Add to cart</a></p>
+                    <p><a href="signup.php" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
                     }
-                    }
                     ?>
+                  
                             </div>
                         </div>
                     </div>
