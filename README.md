@@ -8,6 +8,7 @@ The Item was not available but now it got available in the store
 Successful Delivery of Item
 
 The Technologies Used in this Project are:-
+
 for frontend-HTML,CSS,Javascript,Bootstrap
 
 for backend-php
